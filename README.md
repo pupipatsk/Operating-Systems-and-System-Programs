@@ -3,22 +3,37 @@
 
 ## Multipass Commands
 
-Access an Instance
 ```bash
+# Reinstall Multipass every time cause daemon error
+brew reinstall multipass
+
+# Access an Instance 'Ubuntu-OS'
 multipass shell Ubuntu-OS
-```
 
-Exit an Instance
-```bash
+# Exit an Instance
 ubuntu@Ubuntu-OS:~$ exit
-```
 
-Stop an Instance
-```bash
+# Stop an Instance
 multipass stop Ubuntu-OS
+
+# List Instances
+multipass list
 ```
 
-List Instances
+## Linux Commands
+
 ```bash
-multipass list
+# List all files and directories
+ls
+ls -f # with hidden files
+
+# File content
+cat file.txt # Display file content
+cat > file.txt # Create file and write content
+
+# Add current directory to PATH
+PATH=$PATH:.
+
+# C language
+gcc -o filename filename.c # Compile C file
 ```
