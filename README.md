@@ -4,7 +4,7 @@
 ## Multipass Commands
 
 ```bash
-# Reinstall Multipass every time cause daemon error
+# Reinstall Multipass every time because daemon error
 brew reinstall multipass
 
 # Access an Instance 'Ubuntu-OS'
